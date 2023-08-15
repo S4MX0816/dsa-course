@@ -1,0 +1,26 @@
+{
+  "name": "dsa-course",
+  "version": "1.0.0",
+  "description": "Data Structure & Algorithms Learning",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:S4MX0816/dsa-course.git"
+  },
+  "keywords": [
+    "DSA",
+    "Course",
+    "Learning",
+    "Data",
+    "Structure",
+    "Algorithms"
+  ],
+  "author": "Sanyam Trehan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
