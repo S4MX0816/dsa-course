@@ -20,7 +20,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items: number[]) {
 // Time Complexity
 //
 // O(1 + n/2 + 100)
-// O(101 + n/2) --> Drop the constant O(n + 1) --> O(n)
+// O(101 + n/2) --> Drop the constants --> O(n + 1) --> O(n)
 //
 // End of Time Complexity
 /////////////////////////////////////////
