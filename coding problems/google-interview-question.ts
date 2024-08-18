@@ -27,7 +27,7 @@ console.log(hasPairWithSum__bruteForce(array2, sum));
 // -----------------------------------------------------------------------------------------------------
 
 // O(n) - linear time complexity
-// O(2) - Space Complexity
+// O(n) - Space Complexity - the set will store at max n number of elements
 function hasPairWithSum__setApproach(arr: number[], sum: number): boolean {
   // create an empty set
   const complements = new Set();
