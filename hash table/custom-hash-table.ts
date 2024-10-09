@@ -52,6 +52,19 @@ class HashTable {
     this._data[address].push([key, value]); // O(1)
   }
 
+  /**
+   * retrieve the keys of the hash table
+   */
+  keys() {
+    const keysArray: string[] = [];
+    this._data.length;
+
+    this._data.forEach((buckets) => {
+      buckets.forEach(([key]) => keysArray.push(key));
+    });
+    return keysArray;
+  }
+
   // -----------------------------------------------------------------------------------------------------
   // @ Private methods
   // -----------------------------------------------------------------------------------------------------
@@ -76,5 +89,7 @@ class HashTable {
 const myHashTable = new HashTable(2);
 myHashTable.set("grapes", 10000);
 myHashTable.set("apple", 500);
+myHashTable.set("oranges", 2);
 console.log(myHashTable.get("grapes"));
 console.log(myHashTable.get("apple"));
+console.log(myHashTable.keys());
